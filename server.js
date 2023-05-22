@@ -11,8 +11,8 @@ let server = http.createServer((req, res) => {
             html += `<td>${index + 1}</td>`;
             html += `<td>${value.name}</td>`;
             html += `<td>${value.price}</td>`;
-            html += `<td><button>Delete</button></td>`;
-            html += `<td><button>Update</button></td>`;
+            html += `<td><button style="background-color: red">Delete</button></td>`;
+            html += `<td><button style="background-color: blue">Update</button></td>`;
             html += '</tr>';
         });
     });
